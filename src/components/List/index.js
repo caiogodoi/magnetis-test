@@ -1,5 +1,5 @@
 import React from 'react';
-import DisplayValue from './DisplayValue';
+import DisplayValue from '../DisplayValue';
 
 const List = props => {
   const list = [...props.transactions].reverse();

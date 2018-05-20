@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import List from './List';
-import DisplayValue from './DisplayValue';
+import List from '../List';
+import DisplayValue from '../DisplayValue';
 
 export default class App extends Component {
   constructor(props) {
