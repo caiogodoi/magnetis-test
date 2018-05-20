@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import List from '../List';
+import Header from '../Header';
 import DisplayValue from '../DisplayValue';
 
 export default class App extends Component {
@@ -78,15 +79,7 @@ export default class App extends Component {
 
     return (
       <div className="main">
-        <div className="main-header">
-          <div className="main-magnetis-image">
-            <img
-              className="magnetis-image"
-              alt=""
-              src="https://www.konkero.com.br/revistawp/wp-content/uploads/2017/11/magnetis_logo_646x220px-e1510579292228.png"
-            />
-          </div>
-        </div>
+        <Header />
         <div className="main-body">
           <div className="main-form">
             <form className="form" onSubmit={this.onSubmit}>
