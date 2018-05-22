@@ -86,6 +86,7 @@ export default class App extends Component {
               <input
                 className="input-form"
                 type="number"
+                step="0.01"
                 autoFocus
                 value={this.state.transaction}
                 onChange={this.onChange}
