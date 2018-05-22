@@ -3,6 +3,7 @@ import DisplayValue from '../DisplayValue';
 
 const List = props => {
   const list = [...props.transactions].reverse();
+
   return (
     <div className="transaction-list">
       <table>

@@ -86,6 +86,7 @@ export default class App extends Component {
               <input
                 className="input-form"
                 type="number"
+                autoFocus
                 value={this.state.transaction}
                 onChange={this.onChange}
                 placeholder="Add Transaction..."
