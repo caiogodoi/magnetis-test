@@ -2,68 +2,57 @@
 
 # Magnetis Transactions App
 
-## Descrição
+## Description
 
-Magnetis Transactions App é um aplicativo web feito em React para salvar transacōes.
+Magnetis Transactions App is a web app made in React to save transactions.
 
-Você pode adicionar transações a uma lista, valores positivos (crédito) e valores negativos (débito).
+You can add transactions at a list, positives values (credit) and negative values (debit).
 
-Tendo um total com a somatória de todos os valores.
+The app has a total with all the values sum.
 
 ## App
 
 ![screen shot 2018-05-22 at 16 21 39](https://user-images.githubusercontent.com/21208934/40385229-49d0b048-5ddc-11e8-9d6a-03dded8d03e3.png)
 
-## Funcionalidades
+## Functionalities
 
-### Alteração de valor automático:
+### Automatic value alteration:
 
-O App vem com um diferencial que é: Quando você insere um valor negativo, ele automaticamente altera o select para débito, e se o valor for positivo, ele altera para crédito.
+The App comes with a differential: when you insert a negative value, automatically, it changes the select to debit and, if the value is positive, it changes to credit.
 
-O valor também pode ser mudado automáticamente quando você muda o select, alterando o sinal do valor inserido.
+The value can also be altered automatically when you change the select, altering the sinal of the inserted value.
 
-Segue exemplo:
+For example:
 
-Quando o valor é positivo:
+When the value is positive:
 
 ![screen shot 2018-05-22 at 15 47 18](https://user-images.githubusercontent.com/21208934/40383512-78816b6c-5dd7-11e8-9baf-b9a3aa97253d.png)
 
-Quando o valor é negativo:
+When the value is negative:
 
 ![screen shot 2018-05-22 at 15 49 30](https://user-images.githubusercontent.com/21208934/40383645-c205c292-5dd7-11e8-839e-f70aabb7fc39.png)
 
-### Alteraçāo de cor automãtica:
+### Alteration of automatic color:
 
-O App também tem a funcionalidade de cores, caso você insira um valor positivo ele será verde, e vermelho caso seja negativo.
+The App has the colors functionality. In case you insert a positive value, it will be green. For negative value, it will be red.
 
-Segue exemplo:
+For example:
 
 ![screen shot 2018-05-22 at 15 55 37](https://user-images.githubusercontent.com/21208934/40383969-9d049ec2-5dd8-11e8-925b-9ede53e546bc.png)
 
-Essa funcionalidade também é aplicada no total.
+This functionality is also applied on the total.
 
-### Data junto ao valor adicionado
+### Date next to the added value
 
-O App também adiciona data (dia/mês/ano e horário) junto ao valor adicionado.
+The App also adds date (day/month/year and time) next to the added value.
 
-Segue exemplo:
+For example:
 
 ![screen shot 2018-05-22 at 16 02 06](https://user-images.githubusercontent.com/21208934/40384305-8400bad6-5dd9-11e8-8846-becb37c66524.png)
 
-## Como instalar
+## How to install:
 
-1. Faça upload do App.
-2. Abra o diretório do App.
-3. Use o comando: _npm install_
-4. Depois, use o comando: _npm start_
-
-
-
-
-
-
-
-
-
-
-
+1. Upload the App
+2. Open the App directory.
+3. Run the command: _npm install_
+4. After that, run the command: _npm start_
