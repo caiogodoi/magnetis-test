@@ -10,6 +10,10 @@ Você pode adicionar transações a uma lista, valores positivos (crédito) e va
 
 Tendo um total com a somatória de todos os valores.
 
+## App
+
+![screen shot 2018-05-22 at 16 21 39](https://user-images.githubusercontent.com/21208934/40385229-49d0b048-5ddc-11e8-9d6a-03dded8d03e3.png)
+
 ## Funcionalidades
 
 ### Alteração de valor automático:
