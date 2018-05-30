@@ -1,0 +1,14 @@
+.transaction-type{
+  height: 40px;
+  width: 100px;
+  margin-right: 20px;
+  border: 1px lightgray solid;
+}
+
+@media only screen and (max-width: 600px) {
+  .transaction-type {
+    margin-right: 5%;
+    width: 35%;
+    box-sizing: border-box;
+  }
+}

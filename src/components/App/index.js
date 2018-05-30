@@ -3,6 +3,7 @@ import './App.css';
 import List from '../List';
 import Header from '../Header';
 import Total from '../Total'
+import Form from '../Form'
 
 export default class App extends Component {
   constructor(props) {
@@ -79,27 +80,12 @@ export default class App extends Component {
       <div className="app">
         <Header />
         <div className="app__body">
-          <div className="app__form">
-            <form className="form" onSubmit={this.onSubmit}>
-              <input
-                className="input-form"
-                type="number"
-                step="0.01"
-                autoFocus
-                value={this.state.transaction}
-                onChange={this.onChange}
-                placeholder="Add Transaction..."
-              />
-              <select
-                className="select-form"
-                onChange={this.onChangeSelect}
-                value={this.state.type}>
-                <option value="credit">Credit</option>
-                <option value="debit">Debit</option>
-              </select>
-              <button className="btn-form">Submit</button>
-            </form>
-          </div>
+          <Form onSubmit={this.onSubmit}
+            transaction={this.state.transaction}
+            onChange={this.onChange}
+            onChangeSelect={this.onChangeSelect}
+            type={this.state.type}
+          />
           <div className="app__transactions">
             <p className="app__title">Transactions</p>
             <List transactions={this.state.transactions} />
