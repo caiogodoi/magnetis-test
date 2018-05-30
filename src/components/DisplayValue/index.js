@@ -1,4 +1,5 @@
 import React from 'react';
+import './DisplayValue.css'
 
 const DisplayValue = props => {
   let valueClass;

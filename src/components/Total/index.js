@@ -1,4 +1,5 @@
 import React from 'react';
+import './Total.css'
 import DisplayValue from '../DisplayValue';
 
 const Total = (props) => {
