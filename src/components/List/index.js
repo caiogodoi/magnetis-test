@@ -6,7 +6,7 @@ const List = props => {
   const list = [...props.transactions].reverse();
 
   return (
-    <div className="transaction-list">
+    <div className="list">
       <table>
         <tbody>
           {list.map((item, index) => {
@@ -14,7 +14,7 @@ const List = props => {
             const value = `${parseFloat(item.value).toLocaleString('pt-br')}`;
             return (
               <tr key={index}>
-                <td className="transaction-date">
+                <td className="list__date">
                   {date}
                 </td>
                 <td>

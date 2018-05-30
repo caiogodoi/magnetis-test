@@ -4,9 +4,9 @@ import './DisplayValue.css'
 const DisplayValue = props => {
   let valueClass;
   if (props.value >= 0) {
-    valueClass = 'positive';
+    valueClass = 'display-value--positive';
   } else {
-    valueClass = 'negative';
+    valueClass = 'display-value--negative';
   }
   return (
     <span className={valueClass}>{props.display}</span>

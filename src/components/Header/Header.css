@@ -1,14 +1,14 @@
-.main-header {
+.header {
   display: flex;
   justify-content: center;
   max-height: 250px;
 }
 
-.main-magnetis-image {
+.header__wapper {
   max-width: 500px;
 }
 
-.magnetis-image {
+.header__image {
   width: 100%;
   height: 200px;
   object-fit: contain;

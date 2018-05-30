@@ -1,7 +1,7 @@
-.positive {
+.display-value--positive {
   color: green;
 }
 
-.negative {
+.display-value--negative {
   color: tomato;
 }

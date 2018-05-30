@@ -1,4 +1,4 @@
-.transaction-list {
+.list {
   max-height: 200px;
   overflow-y: auto;
   border: 1px lightgray solid;
@@ -6,7 +6,7 @@
   text-align: right;
 }
 
-.transaction-date {
+.list__date {
   color: gray;
   margin-right: 10px;
   font-size: 13px;

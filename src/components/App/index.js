@@ -76,10 +76,10 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="main">
+      <div className="app">
         <Header />
-        <div className="main-body">
-          <div className="main-form">
+        <div className="app__body">
+          <div className="app__form">
             <form className="form" onSubmit={this.onSubmit}>
               <input
                 className="input-form"
@@ -100,8 +100,8 @@ export default class App extends Component {
               <button className="btn-form">Submit</button>
             </form>
           </div>
-          <div className="main-transactions">
-            <p className="text-transaction">Transactions</p>
+          <div className="app__transactions">
+            <p className="app__title">Transactions</p>
             <List transactions={this.state.transactions} />
           </div>
         </div>
