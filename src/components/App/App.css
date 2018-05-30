@@ -13,11 +13,13 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .main-form {
+    width: 100%;
+  }
+}
+
 .form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
   max-width: 450px;
 }
 
@@ -25,17 +27,45 @@
   width: 200px;
   height: 40px;
   margin-right: 20px;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .input-form {
+    margin: 0 5%;
+    width: 50%;
+    box-sizing: border-box;
+  }
 }
 
 .select-form{
   height: 40px;
   width: 100px;
   margin-right: 20px;
+  border: 1px lightgray solid;
+}
+
+@media only screen and (max-width: 600px) {
+  .select-form {
+    margin-right: 5%;
+    width: 35%;
+    box-sizing: border-box;
+  }
 }
 
 .btn-form {
   width: 100px;
   height: 40px;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-form {
+      width: 90%;
+      margin: 20px 5% 0;
+  }
 }
 
 .main-transactions {
