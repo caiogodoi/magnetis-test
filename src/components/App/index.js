@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import List from '../List';
 import Header from '../Header';
-import DisplayValue from '../DisplayValue';
+import Total from '../Total'
 
 export default class App extends Component {
   constructor(props) {
@@ -75,8 +75,6 @@ export default class App extends Component {
   };
 
   render() {
-    const displayTotal = parseFloat(this.state.total).toLocaleString('pt-br');
-
     return (
       <div className="main">
         <Header />
@@ -107,9 +105,7 @@ export default class App extends Component {
             <List transactions={this.state.transactions} />
           </div>
         </div>
-        <div className="main-total">
-          Total: <DisplayValue value={this.state.total} display={displayTotal} />
-        </div>
+        <Total total={this.state.total} />
       </div>
     );
   }
