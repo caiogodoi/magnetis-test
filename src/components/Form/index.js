@@ -1,9 +1,9 @@
 import React from 'react';
-import TransactionField from '../Inputs/TransactionField'
-import TransactionType from '../Inputs/TransactionType'
+import TransactionField from '../Inputs/TransactionField';
+import TransactionType from '../Inputs/TransactionType';
 import './Form.css';
 
-const Form = (props) => {
+const Form = props => {
   const options = [
     { value: 'credit', name: 'Credit' },
     { value: 'debit', name: 'Debit' },
@@ -23,7 +23,7 @@ const Form = (props) => {
       />
       <button className="form__submit">Submit</button>
     </form>
-  )
-}
+  );
+};
 
 export default Form;

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import List from '../List';
 import Header from '../Header';
-import Total from '../Total'
-import Form from '../Form'
+import Total from '../Total';
+import Form from '../Form';
 
 export default class App extends Component {
   constructor(props) {
@@ -32,11 +32,11 @@ export default class App extends Component {
     if (event.target.value < 0) {
       this.setState({
         type: 'debit',
-      })
+      });
     } else {
       this.setState({
         type: 'credit',
-      })
+      });
     }
   };
 
@@ -50,8 +50,8 @@ export default class App extends Component {
     }
     this.setState({
       transaction: newValue,
-    })
-  }
+    });
+  };
 
   onSubmit = event => {
     event.preventDefault();
@@ -80,7 +80,8 @@ export default class App extends Component {
       <div className="app">
         <Header />
         <div className="app__body">
-          <Form onSubmit={this.onSubmit}
+          <Form
+            onSubmit={this.onSubmit}
             transaction={this.state.transaction}
             onChange={this.onChange}
             onChangeSelect={this.onChangeSelect}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './TransactionField.css';
 
-const TransactionField = (props) => {
+const TransactionField = props => {
   return (
     <input
       className="transaction-field"
@@ -12,7 +12,7 @@ const TransactionField = (props) => {
       onChange={props.onChange}
       placeholder={props.placeholder}
     />
-  )
-}
+  );
+};
 
 export default TransactionField;

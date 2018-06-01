@@ -1,6 +1,6 @@
 import React from 'react';
 import DisplayValue from '../DisplayValue';
-import './List.css'
+import './List.css';
 
 const List = props => {
   const list = [...props.transactions].reverse();
@@ -14,9 +14,7 @@ const List = props => {
             const value = `${parseFloat(item.value).toLocaleString('pt-br')}`;
             return (
               <tr key={index}>
-                <td className="list__date">
-                  {date}
-                </td>
+                <td className="list__date">{date}</td>
                 <td>
                   <DisplayValue value={item.value} display={value} />
                 </td>

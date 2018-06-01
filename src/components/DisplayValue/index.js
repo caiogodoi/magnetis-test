@@ -1,5 +1,5 @@
 import React from 'react';
-import './DisplayValue.css'
+import './DisplayValue.css';
 
 const DisplayValue = props => {
   let valueClass;
@@ -8,9 +8,7 @@ const DisplayValue = props => {
   } else {
     valueClass = 'display-value--negative';
   }
-  return (
-    <span className={valueClass}>{props.display}</span>
-  )
-}
+  return <span className={valueClass}>{props.display}</span>;
+};
 
 export default DisplayValue;
